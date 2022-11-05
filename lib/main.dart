@@ -70,62 +70,87 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-      body: Center(
+      backgroundColor:Colors.blue,
 
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children:[
-          Text(
-          'PESU I/O',
-          style: TextStyle(
-            fontSize: 36.0,
-            color: Colors.cyanAccent,
-            fontFamily: 'Lato',
+      body: Container(
+
+        decoration:
+        BoxDecoration(
+          gradient: LinearGradient(
+            colors:[
+              Colors.blue,
+              Colors.pink,
+            ],
+            begin: Alignment.topRight,
+            end: Alignment.bottomCenter,
+
           ),
-    ),
-        // Image.asset('/assets/images/pesuiologo.png',
-        // height: 200.0,
-       // width: 200.0),
+        ),
+        child: Center(
+
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children:[
+            Text(
+            'PESU I/O',
+            style: TextStyle(
+              fontSize: 36.0,
+              color: Colors.black,
+              fontFamily: 'Yeseva One',
+            )),
+            Image.asset(
+                '/assets/images/pesuiologo.png',
+           height: 200.0,
+        width: 200.0),
 
     Text(
-    'S RASHMI',
+    'Name : S RASHMI',
     style: TextStyle(
     fontSize: 36.0,
-    color: Colors.purple,
-    fontFamily: 'Lato',
+    color: Colors.black,
+    fontFamily: 'Playfair Display SC',
     ),
     ),
-      Text(
-        'SRN : PES2UG21CS442',
-        style: TextStyle(
-          fontSize: 30.0,
-          color: Colors.purple,
-          fontFamily: 'Lato',
+        Text(
+          'SRN : PES2UG21CS442',
+          style: TextStyle(
+            fontSize: 30.0,
+            color: Colors.black,
+            fontFamily: 'Playfair Display SC',
+          ),
         ),
-      ),
+            Text(
+              'Course : App Development with Flutter',
+              style: TextStyle(
+                fontSize: 30.0,
+                color: Colors.black,
+                fontFamily: 'Playfair Display SC',
+              ),
+            ),
     Text(
     'Email : somurashmi1971@gamil.com',
     style: TextStyle(
     fontSize: 30.0,
-    color: Colors.purple,
-    fontFamily: 'Lato',
+    color: Colors.black,
+    fontFamily: 'Playfair Display SC',
     ),
     ),
     Text(
     'Mobile no : 9886642112',
     style: TextStyle(
     fontSize: 30.0,
-    color: Colors.purple,
-    fontFamily: 'Lato',
+    color: Colors.black,
+    fontFamily: 'Playfair Display SC',
     ),
-        ),
-          ElevatedButton(onPressed: (){
-            print('Present');
-          }, child:Text('Click'),),
+          ),
+            ElevatedButton(onPressed: (){
+              print('Present');
+            }, child: Padding(padding: EdgeInsets.all(15.0),child:Text('Click'),),),
     ],
-        ),
+          ),
 
+        ),
       ),
 
       );
