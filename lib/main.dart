@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
               fontFamily: 'Yeseva One',
             )),
             Image.asset(
-                '/assets/images/pesuiologo.png',
+                'assets/images/pesuiologo.png',
            height: 200.0,
         width: 200.0),
 
