@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Text(
     'Name : S RASHMI',
     style: TextStyle(
-    fontSize: 36.0,
+    fontSize: 36.1,
     color: Colors.black,
     fontFamily: 'Playfair Display SC',
     ),
@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Text(
           'SRN : PES2UG21CS442',
           style: TextStyle(
-            fontSize: 30.0,
+            fontSize: 30.1,
             color: Colors.black,
             fontFamily: 'Playfair Display SC',
           ),
@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'Course : App Development with Flutter',
               style: TextStyle(
-                fontSize: 30.0,
+                fontSize: 30.1,
                 color: Colors.black,
                 fontFamily: 'Playfair Display SC',
               ),
@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Text(
     'Email : somurashmi1971@gamil.com',
     style: TextStyle(
-    fontSize: 30.0,
+    fontSize: 30.1,
     color: Colors.black,
     fontFamily: 'Playfair Display SC',
     ),
