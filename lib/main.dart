@@ -112,14 +112,17 @@ class _MyHomePageState extends State<MyHomePage> {
     fontFamily: 'Playfair Display SC',
     ),
     ),
-        Text(
-          'SRN : PES2UG21CS442',
-          style: TextStyle(
-            fontSize: 30.0,
-            color: Colors.black,
-            fontFamily: 'Playfair Display SC',
+       // Container(
+         // margin:EdgeInsets.fromLTRB(30.0, 00.0, 20.0, 00.0),
+          //color:Colors.greenAccent,
+          Text(
+            'SRN : PES2UG21CS442',
+            style: TextStyle(
+              fontSize: 30.0,
+              color: Colors.black,
+              fontFamily: 'Playfair Display SC',
+            ),
           ),
-        ),
             Text(
               'Course : App Development with Flutter',
               style: TextStyle(
@@ -152,8 +155,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
         ),
       ),
-
       );
+
+
 
   }
 }
