@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Text(
           'SRN : PES2UG21CS442',
           style: TextStyle(
-            fontSize: 30.1,
+            fontSize: 30.0,
             color: Colors.black,
             fontFamily: 'Playfair Display SC',
           ),
@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Text(
     'Email : somurashmi1971@gamil.com',
     style: TextStyle(
-    fontSize: 30.1,
+    fontSize: 30.0,
     color: Colors.black,
     fontFamily: 'Playfair Display SC',
     ),
